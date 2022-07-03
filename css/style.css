@@ -1,0 +1,106 @@
+/* Home start */
+#home{
+    background-image: url("../images/events-heavenly-header.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+#home .slider{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#home .slider h2{
+    font-size: 4rem;
+}
+/* Nav */
+.nav-menu{
+    background-color: #414658;
+    width: 15%;
+    height: 100vh;
+    z-index: 7;
+    left:-15%
+}
+.nav-menu .close-btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-menu .close-btn:hover{
+    color: #7D3C49 !important;
+}
+.nav-menu li{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-menu li:hover a{
+    color: #7D3C49 !important;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-btn{
+    cursor: pointer;
+    top:50%;
+    left: 0%;
+    z-index: 7;
+}
+.nav-btn span{
+    font-size: 2rem;
+}
+.nav-btn p{
+    font-size: 2rem;
+}
+/* Home end */
+
+/* Details start */
+.click{
+    background-color: #E68285;
+    color: white;
+    cursor: pointer;
+}
+.singer-details{
+    background-color: #CCCCCC;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 10px;
+   
+}
+/* Details end */
+
+/* Duration start */
+#duration{
+    height: 330px;
+    position: relative;
+    background-image: url("../images/invitation-2508607__340.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.slider{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.time-area{
+    border: 1px white solid;
+    width: 20%;
+}
+/* Duration end */
+
+/* Contact start */
+#contact{
+    color: #777;;
+}
+#contact h2, h5{
+ font-weight: 700;
+}
+.contant-links{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.contant-links:hover{
+    color: white;
+    background-color: #D62E33;
+}
+#char-count{
+    font-size: 1.5rem;
+}
+/* Contact end */
